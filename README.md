@@ -49,6 +49,6 @@ Visualize it as: Imagine a package delivery system where packets are small packa
 <li><h3>PAN (Personal Area Network): </h3>Connects devices in an individual's personal workspace (e.g., Bluetooth or USB connections between a phone and a laptop). </li>
 <li><h3> Cloud Networks: </h3>Cloud Networking refers to the infrastructure and processes in the cloud computing environment that are involved in connecting and managing the network resources. It includes the design, deployment, and optimization of networks facilitating communication and data transfer between various services hosted on cloud platforms. Cloud networking facilitates organizations to establish secure, scalable, and high-performance network architectures following to their specific requirements</li>
 <h3>Cloud Networking</h3>
-<img src = "./images/cloud-networking.png" width = "800" height = "600">
+<img src = "images/cloud-networking.png" width = "800" height = "600">
 
 </ul>
