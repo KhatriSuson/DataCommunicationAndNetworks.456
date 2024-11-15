@@ -118,3 +118,39 @@ The rate at which data successfully travels through a network, usually measured 
     * Divided into two sub-layers: Media Access Control (MAC) and Logical Link Control (LLC).
     * Ensures that data frames are correctly transmitted across the physical link.
 
+* <b>3. Network Layer (Layer 3): </b>
+    * Handles routing and forwarding of packets between different networks (inter-network communication).
+    * Responsible for addressing and determining the best path for data transfer (e.g., using IP addresses).
+
+* <b>4. Transport Layer (Layer 4): </b>
+    * Provides end-to-end communication services for applications.
+    * Ensures reliable data transfer with error control, flow control, and segmentation (e.g., TCP, UDP).
+
+* <b>5. Session Layer (Layer 5): </b>
+    * Manages sessions (or connections) between applications.
+    * Handles the setup, maintenance, and termination of communication sessions.
+
+* <b>6. Presentation Layer (Layer 6): </b>
+    * Responsible for data translation, encryption, and compression.
+    * Ensures that data sent by the application layer of one system can be understood by the application layer of another system.
+
+* <b>7. Application Layer (Layer 7): </b>
+    * The topmost layer where end-user applications interact with the network.
+    * Provides services like email, file transfer, and web browsing (e.g., HTTP, FTP, DNS).
+
+# * TCP/IP Model (4 Layers):
+The TCP/IP model is a simplified version of the OSI model, used primarily in the internet and networking protocols:
+
+Link Layer (Data Link + Physical in OSI)
+
+Handles the communication between devices on the same network.
+Includes technologies like Ethernet, Wi-Fi, and ARP.
+Internet Layer (Network in OSI)
+
+Responsible for routing data across different networks using protocols like IP (Internet Protocol).
+Transport Layer (Transport in OSI)
+
+Provides end-to-end communication between hosts, ensuring data is transferred reliably (e.g., TCP) or quickly without guarantees (e.g., UDP).
+Application Layer (Application, Presentation, and Session in OSI)
+
+Handles high-level protocols for user applications, like HTTP, FTP, and DNS.
