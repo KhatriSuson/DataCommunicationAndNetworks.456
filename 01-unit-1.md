@@ -41,11 +41,15 @@ These methods have different strengths and weaknesses for various applications. 
 
 # Delay:
  Refers to the time it takes for data to travel from the source to the destination. This can include propagation, transmission, and queuing delays.
+
 # Types of Delay in Packet-Switched Networks:
-1. Processing Delay
+
+<h2>1. Processing Delay</h2>
 * Time for a router to inspect the packet header, decide the next hop, and check for bit-level errors.
 * Usually measured in microseconds.
 * Minimal in high-speed routers.
+
+<h2>2. Quering Delay</h2>
 #  Loss: 
 Occurs when data packets fail to reach their destination due to network congestion or errors.
 #  Throughput: 
