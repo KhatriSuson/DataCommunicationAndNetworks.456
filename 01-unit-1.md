@@ -180,3 +180,7 @@ For example, the transport layer provides reliable or unreliable data transfer t
     * <b> 1998: Google is founded, revolutionizing search engines.
     * <b> 2007: The iPhone introduces widespread mobile Internet access.
     * <b> 2010s: Rise of cloud computing, social media, and streaming services.
+<hr>
+
+# Practical Work: Wireshark Installation and Usage
+* Installation of Wireshark (free packet sniffer app) and learn to use it
