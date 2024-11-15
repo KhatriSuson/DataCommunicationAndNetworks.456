@@ -101,3 +101,20 @@ The rate at which data successfully travels through a network, usually measured 
 <h3>6. Hardware Limitations </h3>
 
 * Processing speeds of routers and switches can limit the throughput of the network.
+
+<hr>
+
+# 1.5 Protocol Layers and Their Service Models: Layered Architecture, Encapsulation
+* In computer networking, the concept of protocol layers and service models is crucial for simplifying the complexity of communication between different systems. Networks are designed in a layered architecture to break down communication tasks into manageable sub-tasks, and encapsulation ensures that data is passed through the layers in a structured way.
+* The most common and widely adopted layered architecture is the OSI (Open Systems Interconnection) model, which consists of seven layers, and the TCP/IP model, which uses four layers.
+
+# OSI Model (7 layers):
+* 1. Physical Layer (Layer 1):
+    * Concerned with the transmission of raw bits over a physical medium (cables, wireless signals, etc.).
+    * Defines the electrical, mechanical, and procedural characteristics.
+
+* 2. Data Link Layer (Layer 2):
+    * Responsible for node-to-node data transfer and error detection and correction.
+    * Divided into two sub-layers: Media Access Control (MAC) and Logical Link Control (LLC).
+    * Ensures that data frames are correctly transmitted across the physical link.
+
