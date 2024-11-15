@@ -21,5 +21,14 @@ Physical media refers to the physical materials used to transmit data, such as c
 
 # 1.3 Network Core: Packet Switching and Circuit Switching 
 # Packet Switching:
-Packet switching revolutionizes data transmission by breaking information into smaller units called packets. This method allows for efficient use of network resources, better scalability, and improved fault tolerance compared to traditional circuit switching.
+* Packet switching revolutionizes data transmission by breaking information into smaller units called packets. This method allows for efficient use of network resources, better scalability, and improved fault tolerance compared to traditional circuit switching.
+ * Note: (Data is broken into packets, which are sent independently over the network and reassembled at the destination.)
 <img src = "images/packet-switching.png" alt='packet-switching' width='800' height='600'>
+
+# Circuit Switching:
+* Circuit switching and packet switching are two fundamental approaches to data transmission in networks. Circuit switching establishes dedicated channels for communication, guaranteeing quality but potentially wasting resources. Packet switching breaks data into packets, sharing network resources efficiently but sacrificing guaranteed performance.
+
+These methods have different strengths and weaknesses for various applications. Circuit switching excels in real-time communication like voice calls, while packet switching handles bursty data traffic more efficiently.
+* Note: (A dedicated communication path is established between the sender and receiver for the duration of the transmission, traditionally used in telephone networks.)
+<img src = "images/circuit-switching.jpeg" alt='packet-switching' width='800' height='600'>
+
