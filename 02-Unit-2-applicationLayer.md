@@ -77,14 +77,14 @@ HTTP (Hypertext Transfer Protocol): A request-response protocol used for communi
 
 
 # 2.4 Peer-to-Peer File Distribution
-Definition: File sharing without a central server; peers act as both clients and servers.
-Examples: BitTorrent, Gnutella.
-Advantages:
-Scalable.
-Reduces server load.
-Challenges:
-Bandwidth consumption.
-Legal concerns over copyright infringement.
+* Definition: File sharing without a central server; peers act as both clients and servers.
+* Examples: BitTorrent, Gnutella.
+* Advantages:
+    * Scalable.
+    * Reduces server load.
+* Challenges:
+    * Bandwidth consumption.
+    * Legal concerns over copyright infringement.
 
 
 # 2.5 Video Streaming and Content Distribution Networks (CDNs)
