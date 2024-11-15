@@ -67,13 +67,13 @@ HTTP (Hypertext Transfer Protocol): A request-response protocol used for communi
 
 
 # 2.3 DNS—The Internet’s Directory Service
-DNS (Domain Name System): Translates domain names (e.g., www.google.com) into IP addresses.
-Components:
-Resolvers: Client-side DNS queries.
-Root Servers: Top-level DNS servers.
-Authoritative Servers: Provide specific domain IPs.
-Caching: Speeds up subsequent lookups.
-Record Types: A (IPv4), AAAA (IPv6), MX (Mail Exchange), CNAME (Canonical Name).
+* DNS (Domain Name System): Translates domain names (e.g., www.google.com) into IP addresses.
+* Components:
+    * Resolvers: Client-side DNS queries.
+    * Root Servers: Top-level DNS servers.
+    * Authoritative Servers: Provide specific domain IPs.
+    * Caching: Speeds up subsequent lookups.
+* Record Types: A (IPv4), AAAA (IPv6), MX (Mail Exchange), CNAME (Canonical Name).
 
 
 # 2.4 Peer-to-Peer File Distribution
