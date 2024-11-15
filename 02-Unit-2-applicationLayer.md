@@ -4,7 +4,7 @@
 
 
 
-* 2.1 The Web and HTTP
+# 2.1 The Web and HTTP
 Overview of HTTP
 HTTP (Hypertext Transfer Protocol): A request-response protocol used for communication between web clients (browsers) and servers.
 Features:
@@ -33,7 +33,7 @@ Browser Cache: Local storage of recently accessed pages.
 Proxy Cache: Shared by multiple users.
 
 
-* 2.2 Electronic Mail in the Internet
+# 2.2 Electronic Mail in the Internet
 SMTP (Simple Mail Transfer Protocol)
 Protocol for sending emails from clients to servers and between servers.
 Uses port 25 or 587 for communication.
@@ -50,7 +50,7 @@ IMAP (Internet Message Access Protocol): Syncs emails between client and server.
 Webmail: Browser-based access.
 
 
-* 2.3 DNS—The Internet’s Directory Service
+# 2.3 DNS—The Internet’s Directory Service
 DNS (Domain Name System): Translates domain names (e.g., www.google.com) into IP addresses.
 Components:
 Resolvers: Client-side DNS queries.
@@ -60,7 +60,7 @@ Caching: Speeds up subsequent lookups.
 Record Types: A (IPv4), AAAA (IPv6), MX (Mail Exchange), CNAME (Canonical Name).
 
 
-* 2.4 Peer-to-Peer File Distribution
+# 2.4 Peer-to-Peer File Distribution
 Definition: File sharing without a central server; peers act as both clients and servers.
 Examples: BitTorrent, Gnutella.
 Advantages:
@@ -71,7 +71,7 @@ Bandwidth consumption.
 Legal concerns over copyright infringement.
 
 
-* 2.5 Video Streaming and Content Distribution Networks (CDNs)
+# 2.5 Video Streaming and Content Distribution Networks (CDNs)
 Video Streaming:
 Types: On-demand (e.g., Netflix) or live (e.g., Twitch).
 Protocols: HTTP-based streaming (HLS, DASH).
