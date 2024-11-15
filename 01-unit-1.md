@@ -167,3 +167,16 @@ For example, the transport layer provides reliable or unreliable data transfer t
     * Unreliable Service: Data is sent without guarantees of delivery (e.g., UDP).
 <hr>
 
+# 1.6 History of Computer Networking and the Internet:
+=> The internet, as we know it today, is a massive network that has completely changed the way we communicate, work, learn, and connect with others. However, it didn’t start out this way. The idea of the internet began in the 1950s, during the World War, when researchers wanted to build a communication system that could survive disruptions, like attacks. What started as a small military project eventually grew into the global network we use today. The history of the internet is a story of creativity, teamwork, and the constant drive to stay connected, driven by fast technological progress and innovation.
+
+# * Key Milestones in Internet History
+* History of Internet: 
+    * <b> 1969: Launch of ARPANET, the first operational packet-switching network.
+    * <b> 1971: The first email is sent by Ray Tomlinson.
+    * <b> 1983: Adoption of TCP/IP as the standard protocol for ARPANET.
+    * <b> 1989-1990: Tim Berners-Lee invents the World Wide Web.
+    * <b> 1993: The first graphical web browser, Mosaic, is released.
+    * <b> 1998: Google is founded, revolutionizing search engines.
+    * <b> 2007: The iPhone introduces widespread mobile Internet access.
+    * <b> 2010s: Rise of cloud computing, social media, and streaming services.
