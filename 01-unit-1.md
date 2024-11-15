@@ -142,6 +142,7 @@ The rate at which data successfully travels through a network, usually measured 
 
 # * TCP/IP Model (4 Layers):
 <img src = "images/tcp-ip.jpeg" alt='osi-model' width='400' height='400'>
+
 The TCP/IP model is a simplified version of the OSI model, used primarily in the internet and networking protocols:
 * <b>Link Layer (Data Link + Physical in OSI)</b>
     * Handles the communication between devices on the same network.
