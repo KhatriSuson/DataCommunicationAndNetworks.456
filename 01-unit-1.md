@@ -1,11 +1,11 @@
-<h3># Unit 1: Computer Networks and the Internet </h3>
+# Unit 1: Computer Networks and the Internet
 
-<h3>1.1 The Internet</h3>
+# 1.1 The Internet
 The Internet is a globally connected network system that facilitates communication and data services through a vast collection of private, public, business, academic, and government networks. It serves as a virtual infrastructure that links millions of computers and electronic devices worldwide, allowing users to exchange information seamlessly.
 
 The Internet is decentralized, which means there is no central authority governing its operations. To enable communication between devices, the Internet relies on protocols and standards that govern how small units of data are formatted, addressed, and transmitted.
 
-<h3>1.2 The Network Edge: Access Networks, Physical Media</h3>
+# 1.2 The Network Edge: Access Networks, Physical Media#
 
 # The Network Edge:
 
@@ -23,12 +23,30 @@ Physical media refers to the physical materials used to transmit data, such as c
 # Packet Switching:
 * Packet switching revolutionizes data transmission by breaking information into smaller units called packets. This method allows for efficient use of network resources, better scalability, and improved fault tolerance compared to traditional circuit switching.
  * Note: (Data is broken into packets, which are sent independently over the network and reassembled at the destination.)
-<img src = "images/packet-switching.png" alt='packet-switching' width='800' height='600'>
+<img src = "images/packet-switching.png" alt='packet-switching' width='800' height='400'>
 
 # Circuit Switching:
 * Circuit switching and packet switching are two fundamental approaches to data transmission in networks. Circuit switching establishes dedicated channels for communication, guaranteeing quality but potentially wasting resources. Packet switching breaks data into packets, sharing network resources efficiently but sacrificing guaranteed performance.
 
 These methods have different strengths and weaknesses for various applications. Circuit switching excels in real-time communication like voice calls, while packet switching handles bursty data traffic more efficiently.
 * Note: (A dedicated communication path is established between the sender and receiver for the duration of the transmission, traditionally used in telephone networks.)
-<img src = "images/circuit-switching.jpeg" alt='packet-switching' width='800' height='600'>
+<img src = "images/circuit-switching.jpeg" alt='packet-switching' width='800' height='300'>
 
+# 1.4 Delay, Loss, and Throughput in Packet-Switched Network
+* OverView:
+* The internet connects distributed applications running on different systems.
+* Ideal service: instantaneous, lossless, high-volume data transfer between systems.
+* Reality: constraints like delay, loss, and throughput limitations exist.
+* Understanding and managing these issues form a significant part of computer networking.
+
+# Delay:
+ Refers to the time it takes for data to travel from the source to the destination. This can include propagation, transmission, and queuing delays.
+# Types of Delay in Packet-Switched Networks:
+1. Processing Delay
+Time for a router to inspect the packet header, decide the next hop, and check for bit-level errors.
+Usually measured in microseconds.
+Minimal in high-speed routers.
+#  Loss: 
+Occurs when data packets fail to reach their destination due to network congestion or errors.
+#  Throughput: 
+The rate at which data successfully travels through a network, usually measured in bits per second (bps)
