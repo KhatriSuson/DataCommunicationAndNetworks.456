@@ -1,36 +1,47 @@
 # Unit-2 Application Layer
-=> 
+* 2.1.The Web and HTTP: overview of HTTP, HTTP Message Format, User-Server Interaction: Cookies, Web Caching
+* 2.2.Electronic Mail in the Internet : SMTP, Mail Message Formats, Mail Access Protocols
+* 2.3.DNS—The Internet’s Directory Service
+* 2.4.Peer-to-Peer File Distribution
+* 2.5.Video Streaming and Content Distribution Networks5+5
+
+
+<hr> 
 # 2.1 The Web and HTTP overview of HTTP, HTTP Message Format, User-Server Interaction:
 
 
 
 # 2.1 The Web and HTTP
-Overview of HTTP
-HTTP (Hypertext Transfer Protocol): A request-response protocol used for communication between web clients (browsers) and servers.
-Features:
-Stateless: Each request is independent.
-Methods: Common methods include GET, POST, PUT, DELETE.
-Versions: HTTP/1.1, HTTP/2, HTTP/3 (introduced with QUIC).
-HTTP Message Format
-Request Message:
-Start-line: Includes method (e.g., GET), URL, and HTTP version.
-Headers: Meta-information (e.g., Host, User-Agent).
-Body: Optional, used for POST or PUT data.
-Response Message:
-Status line: HTTP version, status code (e.g., 200 OK).
-Headers: Server info, content type, etc.
-Body: The actual data (HTML, JSON, etc.).
-User-Server Interaction: Cookies
-Cookies: Small text files stored on a user's device by the browser.
-Purpose: Session management, personalization, and tracking.
-Mechanism:
-Server sends Set-Cookie in an HTTP response.
-Browser sends cookies back in subsequent requests.
-Web Caching
-Definition: Temporarily storing web content closer to users to reduce latency and server load.
-Types:
-Browser Cache: Local storage of recently accessed pages.
-Proxy Cache: Shared by multiple users.
+* <b>Overview of HTTP</b>
+HTTP (Hypertext Transfer Protocol): A request-response protocol used for communication between web clients (browsers) and servers. 
+* Features:
+    * Stateless: Each request is independent.
+    * Methods: Common methods include GET, POST, PUT, DELETE.
+* Versions: HTTP/1.1, HTTP/2, HTTP/3 (introduced with QUIC).
+
+# HTTP Message Format
+* <b> 1.Request Message:</b>
+    * Start-line: Includes method (e.g., GET), URL, and HTTP version.
+    * Headers: Meta-information (e.g., Host, User-Agent).
+    * Body: Optional, used for POST or PUT data.
+
+* <b> 2. Response Message:</b>
+    * Status line: HTTP version, status code (e.g., 200 OK).
+    * Headers: Server info, content type, etc.
+    * Body: The actual data (HTML, JSON, etc.).
+
+# User-Server Interaction: Cookies
+* Cookies: Small text files stored on a user's device by the browser.
+* Purpose: Session management, personalization, and tracking.
+* Mechanism:
+    * Server sends Set-Cookie in an HTTP response.
+    * Browser sends cookies back in subsequent requests.
+
+# Web Caching
+* Definition: Temporarily storing web content closer to users to reduce latency and server load.
+* Types:
+    * Browser Cache: Local storage of recently accessed pages.
+    * Proxy Cache: Shared by multiple users.
 
 
 # 2.2 Electronic Mail in the Internet
