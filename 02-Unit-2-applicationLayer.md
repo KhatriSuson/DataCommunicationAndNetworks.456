@@ -7,6 +7,7 @@
 
 
 <hr> 
+
 # 2.1 The Web and HTTP overview of HTTP, HTTP Message Format, User-Server Interaction:
 
 
@@ -45,20 +46,24 @@ HTTP (Hypertext Transfer Protocol): A request-response protocol used for communi
 
 
 # 2.2 Electronic Mail in the Internet
-SMTP (Simple Mail Transfer Protocol)
-Protocol for sending emails from clients to servers and between servers.
-Uses port 25 or 587 for communication.
-Works in a push model (email is pushed to the next server).
-Mail Message Formats
-Defined in RFC 5322:
-Header: Sender, recipient, subject, etc.
-Body: Text content of the email.
-Can include MIME (Multipurpose Internet Mail Extensions) for attachments.
-Mail Access Protocols
-Protocols for retrieving emails:
-POP3 (Post Office Protocol v3): Downloads emails and deletes from the server.
-IMAP (Internet Message Access Protocol): Syncs emails between client and server.
-Webmail: Browser-based access.
+<b>SMTP (Simple Mail Transfer Protocol)</b>
+
+* Protocol for sending emails from clients to servers and between servers.
+* Uses port 25 or 587 for communication.
+* Works in a push model (email is pushed to the next server).
+
+<b>Mail Message Formats</b>
+
+* Defined in RFC 5322:
+    * Header: Sender, recipient, subject, etc.
+    * Body: Text content of the email.
+* Can include MIME (Multipurpose Internet Mail Extensions) for attachments.
+<b>Mail Access Protocols</b>
+
+* Protocols for retrieving emails:
+    * POP3 (Post Office Protocol v3): Downloads emails and deletes from the server.
+    * IMAP (Internet Message Access Protocol): Syncs emails between client and server.
+    * Webmail: Browser-based access.
 
 
 # 2.3 DNS—The Internet’s Directory Service
