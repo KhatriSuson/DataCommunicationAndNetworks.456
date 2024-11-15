@@ -60,7 +60,7 @@ These methods have different strengths and weaknesses for various applications. 
 
 <h2>Transmission Delay </h2>
 
-<img src = "images/trasmission-delay.png" alt='transmission-delay' width='600' height='300'>
+<img src = "images/transmission-delay.png" alt='transmission-delay' width='600' height='300'>
 #  Loss: 
 Occurs when data packets fail to reach their destination due to network congestion or errors.
 #  Throughput: 
