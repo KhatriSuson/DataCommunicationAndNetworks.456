@@ -109,11 +109,11 @@ The rate at which data successfully travels through a network, usually measured 
 * The most common and widely adopted layered architecture is the OSI (Open Systems Interconnection) model, which consists of seven layers, and the TCP/IP model, which uses four layers.
 
 # OSI Model (7 layers):
-* 1. Physical Layer (Layer 1):
+* <b>1. Physical Layer (Layer 1): </b>
     * Concerned with the transmission of raw bits over a physical medium (cables, wireless signals, etc.).
     * Defines the electrical, mechanical, and procedural characteristics.
 
-* 2. Data Link Layer (Layer 2):
+* <b> 2. Data Link Layer (Layer 2): </b>
     * Responsible for node-to-node data transfer and error detection and correction.
     * Divided into two sub-layers: Media Access Control (MAC) and Logical Link Control (LLC).
     * Ensures that data frames are correctly transmitted across the physical link.
