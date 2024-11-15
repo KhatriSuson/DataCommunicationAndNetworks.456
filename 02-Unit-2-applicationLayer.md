@@ -88,12 +88,12 @@ HTTP (Hypertext Transfer Protocol): A request-response protocol used for communi
 
 
 # 2.5 Video Streaming and Content Distribution Networks (CDNs)
-Video Streaming:
-Types: On-demand (e.g., Netflix) or live (e.g., Twitch).
-Protocols: HTTP-based streaming (HLS, DASH).
-Challenges: Bandwidth, latency, buffering.
-CDNs:
-Networks of servers distributed geographically to deliver content efficiently.
-Use caching and load balancing to reduce latency and enhance user experience.
-Examples: Akamai, Cloudflare.
+* Video Streaming:
+    * Types: On-demand (e.g., Netflix) or live (e.g., Twitch).
+    * Protocols: HTTP-based streaming (HLS, DASH).
+    * Challenges: Bandwidth, latency, buffering.
+* CDNs:
+    * Networks of servers distributed geographically to deliver content efficiently.
+    * Use caching and load balancing to reduce latency and enhance user experience.
+    * Examples: Akamai, Cloudflare.
 
