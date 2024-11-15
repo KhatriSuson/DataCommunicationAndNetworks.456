@@ -141,16 +141,17 @@ The rate at which data successfully travels through a network, usually measured 
 # * TCP/IP Model (4 Layers):
 The TCP/IP model is a simplified version of the OSI model, used primarily in the internet and networking protocols:
 
-Link Layer (Data Link + Physical in OSI)
+* <b>Link Layer (Data Link + Physical in OSI)</b>
 
-Handles the communication between devices on the same network.
-Includes technologies like Ethernet, Wi-Fi, and ARP.
-Internet Layer (Network in OSI)
+    * Handles the communication between devices on the same network.
+    * Includes technologies like Ethernet, Wi-Fi, and ARP.
 
-Responsible for routing data across different networks using protocols like IP (Internet Protocol).
-Transport Layer (Transport in OSI)
+* <br>Internet Layer (Network in OSI)</br>
+
+    * Responsible for routing data across different networks using protocols like IP (Internet Protocol).
+* <br>Transport Layer (Transport in OSI)</br>
 
 Provides end-to-end communication between hosts, ensuring data is transferred reliably (e.g., TCP) or quickly without guarantees (e.g., UDP).
-Application Layer (Application, Presentation, and Session in OSI)
+* <br>Application Layer (Application, Presentation, and Session in OSI)</br>
 
-Handles high-level protocols for user applications, like HTTP, FTP, and DNS.
+    * Handles high-level protocols for user applications, like HTTP, FTP, and DNS.
