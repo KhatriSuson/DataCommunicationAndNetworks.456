@@ -109,7 +109,7 @@ The rate at which data successfully travels through a network, usually measured 
 * The most common and widely adopted layered architecture is the OSI (Open Systems Interconnection) model, which consists of seven layers, and the TCP/IP model, which uses four layers.
 
 # 1. OSI Model (7 layers):
-<img src = "images/osi-model.jpeg" alt='osi-model' width='400' height='500'>
+<img src = "images/osi-model.jpeg" alt='osi-model' width='600' height='500'>
 * <b>1. Physical Layer (Layer 1): </b>
     * Concerned with the transmission of raw bits over a physical medium (cables, wireless signals, etc.).
     * Defines the electrical, mechanical, and procedural characteristics.
@@ -140,7 +140,7 @@ The rate at which data successfully travels through a network, usually measured 
     * Provides services like email, file transfer, and web browsing (e.g., HTTP, FTP, DNS).
 
 # * TCP/IP Model (4 Layers):
-<img src = "images/tcp-ip.jpeg" alt='osi-model' width='400' height='500'>
+<img src = "images/tcp-ip.jpeg" alt='osi-model' width='400' height='400'>
 The TCP/IP model is a simplified version of the OSI model, used primarily in the internet and networking protocols:
 * <b>Link Layer (Data Link + Physical in OSI)</b>
     * Handles the communication between devices on the same network.
