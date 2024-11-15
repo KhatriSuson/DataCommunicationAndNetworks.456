@@ -108,7 +108,8 @@ The rate at which data successfully travels through a network, usually measured 
 * In computer networking, the concept of protocol layers and service models is crucial for simplifying the complexity of communication between different systems. Networks are designed in a layered architecture to break down communication tasks into manageable sub-tasks, and encapsulation ensures that data is passed through the layers in a structured way.
 * The most common and widely adopted layered architecture is the OSI (Open Systems Interconnection) model, which consists of seven layers, and the TCP/IP model, which uses four layers.
 
-# OSI Model (7 layers):
+# 1. OSI Model (7 layers):
+<img src = "images/osi-model.jpeg" alt='osi-model' width='400' height='500'>
 * <b>1. Physical Layer (Layer 1): </b>
     * Concerned with the transmission of raw bits over a physical medium (cables, wireless signals, etc.).
     * Defines the electrical, mechanical, and procedural characteristics.
@@ -139,6 +140,7 @@ The rate at which data successfully travels through a network, usually measured 
     * Provides services like email, file transfer, and web browsing (e.g., HTTP, FTP, DNS).
 
 # * TCP/IP Model (4 Layers):
+<img src = "images/tcp-ip.jpeg" alt='osi-model' width='400' height='500'>
 The TCP/IP model is a simplified version of the OSI model, used primarily in the internet and networking protocols:
 * <b>Link Layer (Data Link + Physical in OSI)</b>
     * Handles the communication between devices on the same network.
@@ -149,3 +151,17 @@ The TCP/IP model is a simplified version of the OSI model, used primarily in the
     * Provides end-to-end communication between hosts, ensuring data is transferred reliably (e.g., TCP) or quickly without guarantees (e.g., UDP).
 * <b>Application Layer (Application, Presentation, and Session in OSI)</b>
     * Handles high-level protocols for user applications, like HTTP, FTP, and DNS.
+
+# 2. Service Models in Networking :
+=> Each layer in a network model provides specific services to the layers above it and relies on services from the layers below it. These services define the function and role of each layer in the communication process.<br>
+For example, the transport layer provides reliable or unreliable data transfer to the application layer, and the network layer provides routing and addressing services to the transport layer.
+
+* <b> 1. Connection-Oriented vs. Connectionless Service:</b>
+    * Connection-Oriented: A connection is established between sender and receiver before data transfer begins (e.g., TCP).
+    * Connectionless: No need for establishing a connection; data is sent independently (e.g., UDP).
+
+* <b> 2.Reliable vs. Unreliable Service:</b>
+    * Reliable Service: Guarantees delivery of data with error detection and retransmission if necessary (e.g., TCP).
+    * Unreliable Service: Data is sent without guarantees of delivery (e.g., UDP).
+<hr>
+
