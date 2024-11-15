@@ -81,23 +81,23 @@ The rate at which data successfully travels through a network, usually measured 
 
 <h2>Factor Influencing Throguhput </h2>
 
-<h3>Bandwidth </h3>
+<h3>1. Bandwidth </h3>
 
 * The theoretical maximum rate at which data can be transmitted on a link. Higher bandwidth generally supports higher throughput.
-<h3> Network Congestion </h3>
+<h3>2. Network Congestion </h3>
 
 * Heavy traffic leads to queuing delays, packet loss, and retransmissions, reducing throughput.
-<h3>Packet Loss and Retransmissions </h3>
+<h3>3. Packet Loss and Retransmissions </h3>
 
 * Lost packets in protocols like TCP trigger retransmissions, lowering throughput by consuming additional bandwidth.
-<h3>Latency <h3>
+<h3>4. Latency <h3>
 
 * High latency due to propagation, processing, and queuing delays can reduce throughput, particularly in long-distance or high-delay networks.
 
-<h3>Protocol Overhead </h3>
+<h3>5. Protocol Overhead </h3>
 
 * Protocols like TCP and IP add headers to packets, which consume bandwidth and reduce effective throughput.
 
-<h3>Hardware Limitations </h3>
+<h3>6. Hardware Limitations </h3>
 
 * Processing speeds of routers and switches can limit the throughput of the network.
