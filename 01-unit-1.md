@@ -45,11 +45,22 @@ These methods have different strengths and weaknesses for various applications. 
 # Types of Delay in Packet-Switched Networks:
 
 <h2>1. Processing Delay</h2>
+
 * Time for a router to inspect the packet header, decide the next hop, and check for bit-level errors.
 * Usually measured in microseconds.
 * Minimal in high-speed routers.
 
 <h2>2. Quering Delay</h2>
+
+* Time spent waiting in a queue before transmission.
+* Depends on traffic load:
+* Low traffic: Little to no delay.
+* Heavy traffic: Longer delays.
+* Ranges from microseconds to milliseconds.
+
+<h2>Transmission Delay </h2>
+
+<img src = "images/trasmission-delay.png" alt='transmission-delay' width='600' height='300'>
 #  Loss: 
 Occurs when data packets fail to reach their destination due to network congestion or errors.
 #  Throughput: 
