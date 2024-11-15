@@ -18,3 +18,8 @@ These are the networks that connect end-users to the core of the internet, like 
 # Physical Media:
 <li>Physical media are the backbone of network communication. From twisted pair cables to fiber optics, each type has unique characteristics that affect data transmission.
 Physical media refers to the physical materials used to transmit data, such as copper wires, fiber-optic cables, and wireless radio frequencies.</li>
+
+# 1.3 Network Core: Packet Switching and Circuit Switching 
+# Packet Switching:
+Packet switching revolutionizes data transmission by breaking information into smaller units called packets. This method allows for efficient use of network resources, better scalability, and improved fault tolerance compared to traditional circuit switching.
+<img src = "images/packet-switching.png" alt='packet-switching' width='800' height='600'>
