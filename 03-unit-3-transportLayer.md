@@ -36,6 +36,7 @@ The transport layer bridges applications and the network. It provides services f
 # 3.1.1 Relationship Between Transport and Network Layers
 * Network Layer: Responsible for host-to-host communication.
 * Transport Layer: Ensures process-to-process delivery within hosts (uses network-layer services).
+
 <b>Example:</b>
 
 * A network layer delivers packets to the correct machine (IP address).
@@ -55,39 +56,70 @@ The transport layer bridges applications and the network. It provides services f
     * Commonly used for time-sensitive applications (e.g., video streaming, DNS).
 
 # 3.2 Multiplexing and Demultiplexing
-Multiplexing: Combining data from multiple applications into a single stream for transmission.
-Demultiplexing: Delivering received data to the correct application using port numbers.
-3.3 Connectionless Transport: UDP
-UDP: Lightweight, faster, but offers no reliability or congestion control.
-3.3.1 UDP Segment Structure
-Contains:
-Source/Destination Ports
-Length
-Checksum
-Data
-3.3.2 UDP Checksum
-A simple mechanism to detect errors in transmitted data.
-3.4 Principles of Reliable Data Transfer
+* <b>Multiplexing: </b>
+    * Combining data from multiple applications into a single stream for transmission.
+    * The sender combines data from multiple applications into a single transport-layer stream.
+    * Uses source ports to identify originating applications.
+
+* <b>Demultiplexing:</b>
+    * Delivering received data to the correct application using port numbers.
+    * The receiver separates incoming data streams and delivers them to the correct application.
+    * Uses destination ports to identify target applications.
+    <b> Port Numbers: </b>
+    * Standardized identifiers for applications (e.g., HTTP: 80, HTTPS: 443, DNS: 53).
+<hr>
+
+# 3.3 Connectionless Transport: UDP
+* UDP: Lightweight, faster, but offers no reliability or congestion control.
+* <b> Characteristics of UPD: </b>
+    * No setup required before data transmission.
+    * Lightweight: Minimal overhead.
+    * No guarantee of delivery, order, or data integrity.
+# 3.3.1 UDP Segment Structure
+* Contains:
+    * Source Port: Identifies the sending application.
+    * Destination Port: Identifies the receiving application.
+    * Length: Size of the UDP segment.
+    * Checksum: Ensures data integrity.
+
+# 3.3.2 UDP Checksum
+=> A simple mechanism to detect errors in transmitted data.
+* A basic error-checking mechanism.
+* Detects data corruption but doesn’t correct it.
+
+# 3.4 Principles of Reliable Data Transfer
 Reliable data transfer ensures data is delivered accurately and in order.
 
-3.4.1 Go-Back-N (GBN)
-Sender can transmit multiple packets (window size).
+# 3.4.1 Go-Back-N (GBN)
+=> Sender can transmit multiple packets (window size).
 If one packet is lost, all subsequent packets are retransmitted.
-3.4.2 Selective Repeat (SR)
-Sender retransmits only the lost packets, not the entire sequence.
-3.5 Connection-Oriented Transport: TCP
+* <b>Operation </b>
+    
+    * Sender can send up to N packets without waiting for an acknowledgment (ACK).
+    * If a packet is lost or corrupted, the receiver discards subsequent packets.
+    * Sender retransmits the lost packet and all following packets.
+# 3.4.2 Selective Repeat (SR)
+=> Sender retransmits only the lost packets, not the entire sequence.
+* <b>Operation </b>
+    * Sender retransmits only the specific packets that were lost or corrupted.
+    *Receiver uses a buffer to store packets that arrive out of order.
+# 3.5 Connection-Oriented Transport: TCP
+=> TCP establishes a connection before transmitting data. It ensures reliable and ordered delivery through mechanisms like acknowledgments and sequence numbers.
 TCP is the cornerstone of reliable communication in the Internet.
 
-3.5.1 Round-Trip Time (RTT) Estimation and Timeout
-Measures the time for a segment to travel to the receiver and back.
-Adjusts retransmission timeout dynamically based on RTT.
-3.5.2 Reliable Data Transfer
+# 3.5.1 Round-Trip Time (RTT) Estimation and Timeout
+* Measures the time for a segment to travel to the receiver and back.
+* Adjusts retransmission timeout dynamically based on RTT.
+* Timeout:
+    * Calculated dynamically based on RTT.
+    * Ensures retransmissions occur only when necessary.
+# 3.5.2 Reliable Data Transfer
 Ensures data arrives at the receiver correctly using:
 Acknowledgments (ACKs).
 Sequence Numbers.
-3.5.3 Flow Control
+# 3.5.3 Flow Control
 Matches the sender’s transmission rate to the receiver’s capacity using the receiver’s window size.
-3.6 TCP Congestion Control
+# 3.6 TCP Congestion Control
 Prevents network congestion by adjusting the sender's data rate dynamically.
 Slow Start: Gradually increases data rate.
 Congestion Avoidance: Avoids sending excessive data.
