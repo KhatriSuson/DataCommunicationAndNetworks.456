@@ -140,4 +140,4 @@ Prevents network congestion by adjusting the sender's data rate dynamically.TCP 
     * Quickly retransmits packets when multiple duplicate ACKs indicate a packet loss.
 
 # Comparison of TCP and UDP
-<img src="comp-tcp-udp.png" alt='Comparison of TCP and UDP' width='600' height='300'>
+<img src="images/comp-tcp-udp.png" alt='Comparison of TCP and UDP' width='650' height='300'>
