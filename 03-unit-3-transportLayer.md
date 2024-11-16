@@ -22,7 +22,7 @@
 <hr>
 
 # Transport Layer Overview
-The transport layer is responsible for delivering data between applications running on hosts. It offers services like reliable delivery, multiplexing, and congestion control.
+The transport layer is responsible for delivering data between applications running on hosts. It offers services like reliable delivery, multiplexing, and congestion control.<br>
 <img src = "images/transport-layer.jpg" alt='transport-layer' width='500' height='450'>
 The transport layer bridges applications and the network. It provides services for process-to-process communication, enhancing the functionality of the underlying network layer.
 
