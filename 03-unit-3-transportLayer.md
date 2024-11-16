@@ -115,12 +115,29 @@ TCP is the cornerstone of reliable communication in the Internet.
     * Ensures retransmissions occur only when necessary.
 # 3.5.2 Reliable Data Transfer
 Ensures data arrives at the receiver correctly using:
-Acknowledgments (ACKs).
-Sequence Numbers.
+* Acknowledgments (ACKs).
+* Sequence Numbers.
+* Features: 
+    * Sequence Numbers: Ensure data is reassembled in the correct order.
+    * ACKs: Receiver confirms the successful delivery of data.
+    * Retransmissions: Lost packets are resent.
+
 # 3.5.3 Flow Control
 Matches the sender’s transmission rate to the receiver’s capacity using the receiver’s window size.
+* Purpose: Prevents the sender from overwhelming the receiver.
+* Mechanism:
+    * Receiver communicates its buffer size to the sender.
+    * Sender adjusts its data rate to match the receiver’s capacity.
 # 3.6 TCP Congestion Control
-Prevents network congestion by adjusting the sender's data rate dynamically.
-Slow Start: Gradually increases data rate.
-Congestion Avoidance: Avoids sending excessive data.
-Fast Retransmit: Quickly retransmits lost packets.
+Prevents network congestion by adjusting the sender's data rate dynamically.TCP manages network congestion to maintain performance.
+
+* Slow Start: Gradually increases data rate.
+    * Initially sends a small amount of data (Congestion Window or CWND).
+    * Gradually increases the data rate as ACKs are received.
+* Congestion Avoidance: Avoids sending excessive data.
+    * Once a threshold is reached, increases data rate more slowly to avoid congestion.
+* Fast Retransmit: Quickly retransmits lost packets.
+    * Quickly retransmits packets when multiple duplicate ACKs indicate a packet loss.
+
+# Comparison of TCP and UDP
+<img src='comp-tcp-udp.png' alt='' width='600' height='300'>
