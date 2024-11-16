@@ -23,24 +23,38 @@
 
 # Transport Layer Overview
 The transport layer is responsible for delivering data between applications running on hosts. It offers services like reliable delivery, multiplexing, and congestion control.<br>
-<img src = "images/transport-layer.jpg" alt='transport-layer' width='500' height='450'>
+<img src = "images/transport-layer.jpg" alt='transport-layer' width='500' height='450'><br>
 The transport layer bridges applications and the network. It provides services for process-to-process communication, enhancing the functionality of the underlying network layer.
 
-3.1 Introduction and Transport-Layer Services
-Purpose: Provides communication between applications (e.g., web browsers, email).
-Services:
-Multiplexing/Demultiplexing: Identifying which application should receive the data.
-Reliable Data Transfer: Ensuring data is delivered correctly.
-Flow Control: Prevents sender from overwhelming receiver.
-Congestion Control: Avoids network overload.
-3.1.1 Relationship Between Transport and Network Layers
-Network Layer: Responsible for host-to-host communication.
-Transport Layer: Ensures process-to-process delivery within hosts (uses network-layer services).
-3.1.2 Transport Layer in the Internet
-Two primary protocols:
-TCP (Transmission Control Protocol): Reliable, connection-oriented.
-UDP (User Datagram Protocol): Fast, connectionless.
-3.2 Multiplexing and Demultiplexing
+# 3.1 Introduction and Transport-Layer Services
+* Purpose: Provides communication between applications (e.g., web browsers, email).
+* Services:
+    * Multiplexing/Demultiplexing: Identifying which application should receive the data.
+    * Reliable Data Transfer: Ensuring data is delivered correctly.
+    * Flow Control: Prevents sender from overwhelming receiver.
+    * Congestion Control: Avoids network overload.
+# 3.1.1 Relationship Between Transport and Network Layers
+* Network Layer: Responsible for host-to-host communication.
+* Transport Layer: Ensures process-to-process delivery within hosts (uses network-layer services).
+<b>Example:</b>
+
+* A network layer delivers packets to the correct machine (IP address).
+* The transport layer ensures that data is sent to the correct application (port).
+
+# 3.1.2 Transport Layer in the Internet
+<b>Two primary protocols:</b>
+
+* TCP (Transmission Control Protocol): Reliable, connection-oriented.
+    * Connection-oriented and reliable.
+    * Used for applications requiring guaranteed delivery (e.g., file transfer, web browsing).
+
+
+* UDP (User Datagram Protocol): Fast, connectionless.
+
+    * Connectionless and faster but unreliable.
+    * Commonly used for time-sensitive applications (e.g., video streaming, DNS).
+
+# 3.2 Multiplexing and Demultiplexing
 Multiplexing: Combining data from multiple applications into a single stream for transmission.
 Demultiplexing: Delivering received data to the correct application using port numbers.
 3.3 Connectionless Transport: UDP
