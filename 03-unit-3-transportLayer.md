@@ -143,6 +143,8 @@ Prevents network congestion by adjusting the sender's data rate dynamically.TCP 
 <img src="images/comp-tcp-udp.png" alt='Comparison of TCP and UDP' width='650' height='300'>
 
 <hr>
+
 ## Connect with me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sushan-khatri-959248259/)
+<hr>

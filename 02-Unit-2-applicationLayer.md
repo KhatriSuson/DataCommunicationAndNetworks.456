@@ -97,3 +97,9 @@ HTTP (Hypertext Transfer Protocol): A request-response protocol used for communi
     * Use caching and load balancing to reduce latency and enhance user experience.
     * Examples: Akamai, Cloudflare.
 
+<hr>
+
+## Connect with me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sushan-khatri-959248259/)
+<hr>

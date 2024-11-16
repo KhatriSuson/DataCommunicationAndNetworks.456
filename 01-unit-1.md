@@ -190,3 +190,10 @@ For example, the transport layer provides reliable or unreliable data transfer t
 
 # Practical Work: Wireshark Installation and Usage
 * Installation of Wireshark (free packet sniffer app) and learn to use it
+
+<hr>
+
+## Connect with me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sushan-khatri-959248259/)
+<hr>
