@@ -117,3 +117,88 @@ The **control plane** manages routing decisions and updates the forwarding table
     - Routers share distance to destinations with neighbors.
     - **Example**: Routing Information Protocol (RIP).
     - **Real-Life Example**: A travel agency shares the distances to nearby cities.
+
+# Network Layer: Routing and Control Protocols
+
+This section covers various routing algorithms and control protocols that enable data to travel efficiently across networks.
+
+## 4.2.1 Routing Algorithms
+
+Routing algorithms determine the best path for data packets to travel from the source to the destination.
+
+### 4.2.1.1 The Link-State (LS) Routing Algorithm
+
+- **Overview**: Each router has a complete view of the network topology.
+- **How It Works**:
+  - Routers share information about their directly connected neighbors.
+  - Each router independently calculates the shortest path to all destinations using Dijkstra’s algorithm.
+- **Advantages**:
+  - Highly accurate routing information.
+  - Quick convergence in case of network changes.
+- **Real-Life Example**: A GPS system with a detailed map calculates the best route to a destination.
+
+---
+
+### 4.2.1.2 The Distance-Vector (DV) Routing Algorithm
+
+- **Overview**: Routers exchange information with their immediate neighbors.
+- **How It Works**:
+  - Each router maintains a table of the best-known distances to destinations.
+  - Updates are shared periodically to ensure all routers have the latest paths.
+- **Advantages**:
+  - Simpler than Link-State routing.
+- **Drawbacks**:
+  - Slower to converge and may encounter issues like routing loops.
+- **Real-Life Example**: A group of travelers sharing distances to nearby landmarks to decide the shortest route.
+
+---
+
+## 4.2.2 Intra-AS Routing in the Internet: OSPF
+
+- **OSPF (Open Shortest Path First)**:
+  - A **Link-State Protocol** used for routing within a single Autonomous System (AS).
+  - Divides the network into areas to improve efficiency.
+- **Key Features**:
+  - Uses Dijkstra’s algorithm for route calculation.
+  - Supports hierarchical routing with multiple areas.
+- **Advantages**:
+  - Efficient and scalable for large networks.
+  - Supports advanced features like load balancing and authentication.
+- **Real-Life Example**: A corporate office network with separate routing for departments, managed centrally for efficiency.
+
+---
+
+## 4.2.3 Routing Among the ISPs: BGP
+
+- **BGP (Border Gateway Protocol)**:
+  - A protocol used to route data between different Autonomous Systems (AS), such as Internet Service Providers (ISPs).
+- **How It Works**:
+  - BGP exchanges information about reachable networks and their attributes.
+  - Prioritizes policies over the shortest path.
+- **Advantages**:
+  - Ensures global connectivity across the Internet.
+  - Allows ISPs to define routing policies based on business needs.
+- **Real-Life Example**: A global courier company choosing routes based on cost, speed, and reliability, rather than distance alone.
+
+---
+
+## 4.2.4 ICMP: The Internet Control Message Protocol
+
+- **Purpose**: Used for error reporting and diagnostic messages in the Internet.
+- **Functions**:
+  - Reports issues like unreachable destinations or routing loops.
+  - Supports tools like `ping` and `traceroute` for network testing.
+- **Message Types**:
+  - **Echo Request/Reply**: Used by `ping` to test connectivity.
+  - **Destination Unreachable**: Indicates that a packet cannot reach its destination.
+- **Real-Life Example**: A mail carrier informing the sender about undeliverable mail (e.g., incorrect address).
+
+---
+
+### Summary
+
+- **Link-State Routing**: Offers precise routing by sharing complete network topology.
+- **Distance-Vector Routing**: Shares simpler distance information but is slower to adapt.
+- **OSPF**: A robust intra-AS routing protocol for efficient and secure internal network management.
+- **BGP**: The backbone of Internet routing, enabling global connectivity between ISPs.
+- **ICMP**: The Internet's diagnostic tool for error reporting and connectivity testing.
