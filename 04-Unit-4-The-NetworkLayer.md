@@ -202,3 +202,10 @@ Routing algorithms determine the best path for data packets to travel from the s
 - **OSPF**: A robust intra-AS routing protocol for efficient and secure internal network management.
 - **BGP**: The backbone of Internet routing, enabling global connectivity between ISPs.
 - **ICMP**: The Internet's diagnostic tool for error reporting and connectivity testing.
+
+<hr>
+
+## Connect with me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sushan-khatri-959248259/)
+<hr>
