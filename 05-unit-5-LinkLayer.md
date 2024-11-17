@@ -149,3 +149,13 @@ Describes the step-by-step journey of a web page request through the network sta
 - The link layer provides vital services for error detection, framing, and media access control.
 - Protocols like **Ethernet**, **ARP**, and **VLANs** make communication efficient and reliable within a LAN.
 - Real-life analogies help us understand the flow of a web page request, from IP assignment to data retrieval.
+
+
+
+
+<hr>
+
+## Connect with me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sushan-khatri-959248259/)
+<hr>
