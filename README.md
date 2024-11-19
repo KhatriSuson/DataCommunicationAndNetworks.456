@@ -1,5 +1,12 @@
 # DataCommunicationAndNetworks.456
 BICTE 5th Sem Data Communication and Networks notes.
+1. [Unit 01: Computer Networks and the Internet](01-unit-1.md)  
+2. [Unit 02: applicationLayer](02-Unit-2-applicationLayer.md)  
+3. [Unit 03: transportLayer](02-unit-3-transportLayer.md)  
+4. [Unit 04: The-NetworkLayer](02-Unit-4-The-NetworkLayer.md)  
+5. [Unit 05: LinkLayer](02-unit-5-LinkLayer.md)  
+6. [Unit 06: Wireless_and_mobile_networks](02-unit-6-Wireless_and_mobile_networks.md)  
+ 
 
 <h3>Computer Networking </h3>
 	Computer networking is very important in modern technology, enabling the interconnected systems that power the Internet, business communications, and everyday digital interactions. Understanding the fundamentals of computer networking is essential for anyone involved in technology, from enthusiasts to professionals. This article will explore the basics of computer networking, including network types, components, protocols, and essential services like the Domain Name System (DNS).
@@ -72,7 +79,3 @@ Visualize it as: Imagine a package delivery system where packets are small packa
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sushan-khatri-959248259/)
 <hr>
 
-1. [Unit 01](01-unit-1.md)  
-2. [Setup Instructions](setup.md)  
-3. [Usage Guide](usage.md)  
-4. [FAQ](faq.md)
