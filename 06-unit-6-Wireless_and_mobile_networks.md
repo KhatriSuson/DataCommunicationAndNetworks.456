@@ -73,8 +73,6 @@ WiFi, based on the IEEE 802.11 standard, is the most widely used wireless LAN te
 - Bluetooth facilitates short-range communication, ideal for personal devices.
 
 <hr>
-
 ## Connect with me
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sushan-khatri-959248259/)
 <hr>

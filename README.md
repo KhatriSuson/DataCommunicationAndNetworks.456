@@ -71,3 +71,8 @@ Visualize it as: Imagine a package delivery system where packets are small packa
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sushan-khatri-959248259/)
 <hr>
+
+1. [Unit 01](01-unit-1.md)  
+2. [Setup Instructions](setup.md)  
+3. [Usage Guide](usage.md)  
+4. [FAQ](faq.md)
