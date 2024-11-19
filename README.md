@@ -2,10 +2,10 @@
 BICTE 5th Sem Data Communication and Networks notes.
 1. [Unit 01: Computer Networks and the Internet](01-unit-1.md)  
 2. [Unit 02: applicationLayer](02-Unit-2-applicationLayer.md)  
-3. [Unit 03: transportLayer](02-unit-3-transportLayer.md)  
-4. [Unit 04: The-NetworkLayer](02-Unit-4-The-NetworkLayer.md)  
-5. [Unit 05: LinkLayer](02-unit-5-LinkLayer.md)  
-6. [Unit 06: Wireless_and_mobile_networks](02-unit-6-Wireless_and_mobile_networks.md)  
+3. [Unit 03: transportLayer](03-unit-3-transportLayer.md)  
+4. [Unit 04: The-NetworkLayer](04-Unit-4-The-NetworkLayer.md)  
+5. [Unit 05: LinkLayer](05-unit-5-LinkLayer.md)  
+6. [Unit 06: Wireless_and_mobile_networks](06-unit-6-Wireless_and_mobile_networks.md)  
  
 
 <h3>Computer Networking </h3>
