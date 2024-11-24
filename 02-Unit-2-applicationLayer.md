@@ -125,6 +125,43 @@ These records help computers and servers communicate effectively, making sure yo
     * Examples: Akamai, Cloudflare.
 
 <hr>
+# Video Streaming and Content Distribution Networks (CDNs)
+
+This document provides an overview of video streaming and the role of Content Distribution Networks (CDNs) in delivering video content efficiently.
+
+## Video Streaming
+
+### Types of Video Streaming
+- **On-Demand Streaming**: This allows users to watch videos whenever they choose. Examples include platforms like **Netflix**, where users can select and watch movies or shows at their convenience.
+- **Live Streaming**: This involves broadcasting video content in real-time. A popular example is **Twitch**, where users can watch live gameplay or events as they happen.
+
+### Streaming Protocols
+- **HTTP Live Streaming (HLS)**: A protocol developed by Apple that breaks down video into small segments, allowing for adaptive streaming based on the user's internet speed.
+- **Dynamic Adaptive Streaming over HTTP (DASH)**: A similar protocol that also adjusts video quality dynamically based on available bandwidth, ensuring a smooth viewing experience.
+
+### Challenges in Video Streaming
+- **Bandwidth**: The amount of data that can be transmitted over an internet connection. High-definition video requires significant bandwidth, which can be a barrier for some users.
+- **Latency**: The delay between the video being captured and displayed. Low latency is crucial for live streaming to ensure real-time interaction.
+- **Buffering**: This occurs when the video pauses to load more data. Frequent buffering can disrupt the viewing experience and frustrate users.
+
+## Content Distribution Networks (CDNs)
+
+### What are CDNs?
+- CDNs are networks of servers that are distributed across various geographical locations. Their primary purpose is to deliver content (like videos) efficiently to users, regardless of their location.
+
+### How CDNs Work
+- **Caching**: CDNs store copies of content on multiple servers. When a user requests a video, it is delivered from the nearest server, reducing the distance the data needs to travel.
+- **Load Balancing**: CDNs manage traffic to ensure that no single server is overwhelmed with requests. This enhances performance and reduces latency, providing a better user experience.
+
+### Examples of CDNs
+- **Akamai**: One of the largest and most well-known CDNs, providing services for various types of content delivery.
+- **Cloudflare**: Offers CDN services along with security features, helping to speed up and protect websites.
+
+## Summary
+Video streaming has transformed how we consume media, offering both on-demand and live options. However, challenges such as bandwidth, latency, and buffering need to be addressed for optimal user experience. Content Distribution Networks (CDNs) play a crucial role in overcoming these challenges by efficiently delivering content through caching and load balancing. Notable CDN providers include Akamai and Cloudflare.
+
+For more information, feel free to explore further!
+<hr>
 
 ## Connect with me
 
