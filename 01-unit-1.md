@@ -153,7 +153,7 @@ The TCP/IP model is a simplified version of the OSI model, used primarily in the
 * <b>Link Layer (Data Link + Physical in OSI)</b>
     * Handles the communication between devices on the same network.
     * Includes technologies like Ethernet, Wi-Fi, and ARP.
-* <>Internet Layer (Network in OSI)</b>
+* Internet Layer (Network in OSI)</b>
     * Responsible for routing data across different networks using protocols like IP (Internet Protocol).
 * <b>Transport Layer (Transport in OSI)</b>
     * Provides end-to-end communication between hosts, ensuring data is transferred reliably (e.g., TCP) or quickly without guarantees (e.g., UDP).
