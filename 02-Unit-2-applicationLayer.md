@@ -118,7 +118,7 @@ These records help computers and servers communicate effectively, making sure yo
 * Video Streaming:
     * Types: On-demand (e.g., Netflix) or live (e.g., Twitch).
     * Protocols: HTTP-based streaming (HLS, DASH).
-    * Challenges: Bandwidth, latency, buffering.
+    * Challenges: Bandwidth, latency, buffering. 
 * CDNs:
     * Networks of servers distributed geographically to deliver content efficiently.
     * Use caching and load balancing to reduce latency and enhance user experience.
@@ -160,7 +160,7 @@ This document provides an overview of video streaming and the role of Content Di
 ## Summary
 Video streaming has transformed how we consume media, offering both on-demand and live options. However, challenges such as bandwidth, latency, and buffering need to be addressed for optimal user experience. Content Distribution Networks (CDNs) play a crucial role in overcoming these challenges by efficiently delivering content through caching and load balancing. Notable CDN providers include Akamai and Cloudflare.
 
-For more information, feel free to explore further!
+
 <hr>
 
 ## Connect with me
